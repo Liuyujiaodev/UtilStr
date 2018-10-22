@@ -20,4 +20,5 @@ s.source       = { :git => "https://github.com/Liuyujiaodev/UtilStr.git", :tag =
 s.source_files = "UtilStr","UtilStr/**/*.{h,m}"
 s.requires_arc = true
 s.platform = :ios, '8.0'
+s.dependency "YJUtil"
 end
