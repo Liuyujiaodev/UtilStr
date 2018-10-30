@@ -56,16 +56,12 @@
 
 #define APPTopBarOutsidHeight (APPControllerViewHeight - APP_STATUS_HEIGHT) //除去顶层topBar后的高
 
-#define  kDevice_Is_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
-//状态栏高度
-#define APP_STATUS_HEIGHT kDevice_Is_iPhoneX ? [[UIApplication sharedApplication] statusBarFrame].size.height + 24 : [[UIApplication sharedApplication] statusBarFrame].size.height
+#define kDevice_Is_iPhoneX (([[UIApplication sharedApplication] statusBarFrame].size.height == 44.0f) ? (YES):(NO))
 
-//nav bar高度
-#define APP_NAV_BAR_HEIGHT    44
+#define APP_STATUS_HEIGHT [[UIApplication sharedApplication] statusBarFrame].size.height
+#define APP_NAV_BAR_HEIGHT 44
 
-//状态栏和nav bar的高度和
-#define APP_STATUS_NAVBAR_HEIGHT    (APP_STATUS_HEIGHT + APP_NAV_BAR_HEIGHT)
-
+#define APP_STATUS_NAVBAR_HEIGHT (APP_STATUS_HEIGHT+APP_NAV_BAR_HEIGHT)
 // 比例
 #define APP_HScale APPWidth / 375
 
