@@ -22,7 +22,9 @@
 #pragma mark -常量
 
 #define kCOMMON_FONT_MEDIUM_14   [Util fontWithName:@"PingFangSC-Medium" size:14]
+#define kCOMMON_FONT_MEDIUM_15   [Util fontWithName:@"PingFangSC-Medium" size:15]
 #define kCOMMON_FONT_MEDIUM_16   [Util fontWithName:@"PingFangSC-Medium" size:16]
+#define kCOMMON_FONT_MEDIUM_17   [Util fontWithName:@"PingFangSC-Medium" size:17]
 #define kCOMMON_FONT_MEDIUM_18   [Util fontWithName:@"PingFangSC-Medium" size:18]
 #define kCOMMON_FONT_MEDIUM_20   [Util fontWithName:@"PingFangSC-Medium" size:20]
 #define kCOMMON_FONT_MEDIUM_22   [Util fontWithName:@"PingFangSC-Medium" size:22]
@@ -46,9 +48,22 @@
 #define kCOMMON_FONT_SEMIBOLD_24 [Util fontWithName:@"PingFangSC-Semibold" size:24]
 #define kCOMMON_FONT_SEMIBOLD_26 [Util fontWithName:@"PingFangSC-Semibold" size:26]
 
-#define kCOMMON_FONT_LIGHT_22    [Util fontWithName:@"PingFangSC-Light" size:22]
+#define kCOMMON_FONT_LIGHT_10    [Util fontWithName:@"PingFangSC-Light" size:10]
+#define kCOMMON_FONT_LIGHT_11    [Util fontWithName:@"PingFangSC-Light" size:11]
+#define kCOMMON_FONT_LIGHT_12    [Util fontWithName:@"PingFangSC-Light" size:12]
 #define kCOMMON_FONT_LIGHT_13    [Util fontWithName:@"PingFangSC-Light" size:13]
+#define kCOMMON_FONT_LIGHT_14    [Util fontWithName:@"PingFangSC-Light" size:14]
+#define kCOMMON_FONT_LIGHT_15    [Util fontWithName:@"PingFangSC-Light" size:15]
+#define kCOMMON_FONT_LIGHT_16    [Util fontWithName:@"PingFangSC-Light" size:16]
+#define kCOMMON_FONT_LIGHT_17    [Util fontWithName:@"PingFangSC-Light" size:17]
+#define kCOMMON_FONT_LIGHT_22    [Util fontWithName:@"PingFangSC-Light" size:22]
+#define kCOMMON_FONT_LIGHT_25    [Util fontWithName:@"PingFangSC-Light" size:25]
 
+#define kCOMMON_FONT_PingFangSC_Light    @"PingFangSC-Light"
+#define kCOMMON_FONT_PingFangSC_Semibold    @"PingFangSC-Semibold"
+#define kCOMMON_FONT_PingFangSC_Medium      @@"PingFangSC-Medium"
+#define kCOMMON_FONT_PingFangSC_Regular      @@"PingFangSC-Regular"
+#define kCOMMON_FONT(family,fontSize)    [Util fontWithName:family size:fontSize]
 
 #define kCOMMON_FONT_HELVETICA_NEUE_BOLD_40   [Util fontWithName:@"HelveticaNeue-Bold" size:40]
 
